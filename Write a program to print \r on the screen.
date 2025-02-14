@@ -1,0 +1,11 @@
+// Write a program to print \r on the screen. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+         printf("\\r"); 
+        
+    getch();
+}
