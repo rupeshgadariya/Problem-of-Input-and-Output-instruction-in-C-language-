@@ -1,0 +1,20 @@
+ //Write a program to calculate simple interest
+ #include<stdio.h>
+ #include<conio.h>
+ 
+    void main()
+ {  
+    int principle,time,rate;
+    float simple_interest;
+     printf("\nEnter the principle value ");
+     scanf("%d",&principle);
+     printf("\nEnter the time in year ");
+     scanf("%d",&time);
+     printf("\nEnter the rate of interest ");
+     scanf("%d",&rate);
+
+     simple_interest = ( principle*time*rate )/100.0;
+     printf("\nCalculate simple interest %.2f",simple_interest);
+       
+        getch();
+ }     
