@@ -1,0 +1,23 @@
+ //Write a program to calculate volume of a cuboid
+
+ #include<stdio.h>
+ #include<conio.h>
+ 
+    void main()
+ {
+        float length, width, height,volume;
+
+    printf("\nEnter the lenght ");
+    scanf("%f",&length);
+
+    printf("\nEnter the width ");
+    scanf("%f",&width);
+
+    printf("\nEnter the height ");
+    scanf("%f",&height);
+
+    volume = length*width*height;
+
+       printf("\nvolume of a cuboid = %.2f",volume);      
+    getch();
+ }
