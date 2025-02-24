@@ -1,0 +1,14 @@
+// Write a program to input an ASCII code from the user and print its corresponding character. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        int x;
+        printf("Input an ASCII code ");
+        scanf("%d",&x);
+        printf("Its corresponding character is '%c'",x);
+        
+    getch();
+}
