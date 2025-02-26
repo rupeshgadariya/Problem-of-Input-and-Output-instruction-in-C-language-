@@ -1,0 +1,15 @@
+// Write a program to input three characters from the user and display characters with 
+// their corresponding ASCII codes. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+        char a,b,c;
+    printf("Enter 3 character ");
+    scanf("%c %c %c",&a,&b,&c);
+    printf("%c is '%d'\n%c is '%d'\n%c is '%d'",a,a,b,b,c,c);
+        
+    getch();
+}
