@@ -1,0 +1,13 @@
+// Write a program to calculate size of a character constant. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+      int x;
+      x = sizeof('A');
+      printf("%d",x); 
+        
+    getch();
+}
