@@ -1,0 +1,13 @@
+// Write a program to calculate size of a real constant. 
+
+#include<stdio.h>
+#include<conio.h>
+
+    void main()
+{
+      int x;
+      x = sizeof(2.8);
+      printf("%d",x); 
+        
+    getch();
+}
